@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Concert One', cursive;
+}
+
+body{
+    background: rgb(0,106,78);
+background: linear-gradient(325deg, rgba(0,106,78,1) 0%, rgba(34,193,195,1) 100%);
+    height: 100vh;
+}
+
+.header{
+    width: 20vw;
+}
+
+.title{
+    font-family: 'Rubik Bubbles', cursive;
+    color: darkgreen;
+    letter-spacing: 0.25rem;
+    font-size: 1rem;
+}
+
+.subtitle{
+    font-size: 0.5rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nav-ul{
+    width: 80vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-li {
+    cursor: pointer;
+}
+
+.hero{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-item {
+    width: 100%;
+}
+
+.text-introduce {
+    width: 500px;
+}
+
+.title-hero > .name {
+    font-size: 2.25rem;
+    font-family: 'Rubik Bubbles', cursive;
+    color: darkgreen;
+}
